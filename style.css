@@ -1,0 +1,40 @@
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+li {
+    font-size: 1rem;
+}
+
+body {
+background-color: #b8c6db;
+background-image: linear-gradient(#C4C4C4 1%, #f5f7fa 74%);
+}
+
+.primary-color {
+    background-color: #FFB563;
+}
+
+.primary-text {
+    color: #FFB563;
+}
+
+.text-shadow {
+    text-shadow: #757474 1px 4px 8px;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+li > a{
+    border-bottom: 3px solid transparent;
+}
+
+li > a:hover {
+    border-bottom: 3px solid #FFB563;
+
+}
