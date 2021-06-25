@@ -13,27 +13,35 @@
     <title>Document</title>
 </head>
     <div class="container p-3">
-        <nav class="navbar navbar-expand-sm">
+        <nav class="navbar navbar-expand-md navbar-light">
             <div class="container-fluid justify-content-between">
                 <a class="navbar-brand text-white text-shadow" href="#"><span class="primary-text">IRON</span>/TEMPLE</a>
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-white text-shadow" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white text-shadow" href="#">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white text-shadow" href="#">FACILITIES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white text-shadow" href="#">TRAINING</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white text-shadow" href="#">CONTACT US</a>
-                    </li>
-                </ul>
-                <button class="btn primary-color text-white rounded-pill px-4 shadow">MEMBER PORTAL</button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="toggle-navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto" id="navContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-shadow" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-shadow" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-shadow" href="#">FACILITIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-shadow" href="#">TRAINING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-shadow" href="#">CONTACT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-shadow d-block d-md-none" href="#">MEMBER PORTAL</a>
+                        </li>
+                    </ul>
+                    <button class="btn primary-color text-white rounded-pill px-4 shadow d-none d-md-inline">MEMBER PORTAL</button>
+                </div>
             </div>
         </nav>
     </div>
@@ -43,7 +51,6 @@
             </div>  
         </div> 
     <body>
-
-        <link rel="stylesheet" href="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
